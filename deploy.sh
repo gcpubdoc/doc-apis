@@ -21,4 +21,4 @@ git commit -m "${msg}"
 git push -f $githubUrl master:docs # 推送到github
 
 cd - # 退回开始所在目录
-rm -rf docs/.vuepress/dist
+rm -rf docs/.vuepress/dist 
